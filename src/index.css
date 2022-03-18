@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+ border: 0;
+}
+*,*:before,*:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+.icon svg{
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  background-image: linear-gradient(
+    115deg,
+    hsl(240deg 100% 20%) 17%,
+    hsl(227deg 100% 25%) 51%,
+    hsl(224deg 100% 29%) 59%,
+    hsl(223deg 100% 33%) 62%,
+    hsl(222deg 100% 37%) 63%,
+    rgb(91, 105, 134) 65%,
+    hsl(221deg 100% 42%) 67%,
+    hsl(220deg 100% 45%) 71%,
+    hsl(220deg 100% 48%) 80%,
+    hsl(220deg 100% 50%) 100%
+  );
+}
